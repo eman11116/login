@@ -1,0 +1,61 @@
+body{
+    background: rgb(36, 53, 63);
+}
+h1{
+    color: rgb(23, 162, 184);
+}
+p{
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+}
+
+.main{
+width: 80%;
+box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+padding: 0 10px;
+text-align: center;
+margin-top: 5rem;
+}
+.btn-group , .btn:hover{
+   color: white;
+    background-color: rgb(23, 162, 184); ;
+}
+.btn{
+    color: white;
+}
+nav{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+display: flex;
+justify-content: space-between;
+padding: 20px 30px;
+color: white;
+}
+.home2{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.main2{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+margin-top: 7rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5rem 5rem;
+}
+#userName{
+    margin-left: 5px;
+}
